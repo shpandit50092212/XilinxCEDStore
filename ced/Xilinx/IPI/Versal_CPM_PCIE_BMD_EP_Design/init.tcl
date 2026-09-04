@@ -1,6 +1,6 @@
 set currentFile [file normalize [info script]]
 variable currentDir [file dirname $currentFile]
-
+###testttt###
 source -notrace "$currentDir/run.tcl"
   
 proc getSupportedParts {} {
